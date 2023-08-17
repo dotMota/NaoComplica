@@ -1,0 +1,11 @@
+{
+    "name": "naocomplica",
+    "version": "1.0.0",
+    "description": "Extensão para marcar respostas corretas em questionários do Descomplica.",
+    "author": "dotMota",
+    "license": "MIT",
+    "dependencies": {
+        "openai": "^9.6.7"
+    },
+    "scripts": {}
+}

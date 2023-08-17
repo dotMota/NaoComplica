@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "NãoComplica",
+    "version": "2.0",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "https://aulas.descomplica.com.br/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
