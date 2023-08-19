@@ -1,71 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Não Complica</title>
-    <style>
-        body{
-            display: flex;
-            width: 100vw;
-            align-items: center;
-            flex-direction: column;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            font-size: 12pt;
-            width: 300px;
-            padding: 10px;
-            background-color: papayawhip;
-        }
-        .number{
-            font-size: 24pt;
-            font-weight: 700;
-            color: orange;
-            text-shadow: 3px 3px black;
-        }
-        
-        .question{
-            margin-top: 10px;
-            padding: 10px;
-            border: 1px solid black;
-            border-radius: 5px;
-            background-color: white;
-            box-shadow: 5px 5px black;
-        }
-        
-        label{
-            display: flex;
-            align-items: center;
-            min-width: auto;
-            height: auto;
-            border: 1px solid black;
-            border-radius: 5px;
-            padding: 10px;
-            gap: 2px;
-            background-color: white;
-            box-shadow: 5px 5px black;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        label:hover{
-            background-color: palegreen;
-        }
-
-        button{
-            align-items: center;
-            text-align: center;
-            padding: 10px;
-            background-color: aliceblue;
-            border: 1px solid black;
-            border-radius: 5px;
-            box-shadow: 5px 5px;
-            width: auto;
-
-        }
-/*
-        label input[type="radio"]:checked{
-            background-color: palegreen;
-        }
-*/                
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <button id="ShowQuestionsAndAlternatives">Exibir e Copiar</button>
@@ -75,7 +14,8 @@
     </div>
     <div>
         <h3>Alternativas:</h3>
-        <div id="outputAlternatives"></div>
+        <div id="outputAlternatives">
+        </div>
     </div>
     <button id="submitButton" disabled>Enviar</button>
 
@@ -84,6 +24,6 @@
     </div>
 
     <script src = "ExtractAndShowQuestionsAndAlternatives.js"></script>    
-
+    <script src = "script.js"></script>
 </body> 
 </html>

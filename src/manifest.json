@@ -7,6 +7,12 @@
         "scripting",
         "https://aulas.descomplica.com.br/*"
     ],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["script.js"]
+        }
+      ],
     "action": {
         "default_popup": "popup.html"
     }

@@ -58,7 +58,7 @@ function handleContentMessage(response) {
     response.alternatives.forEach((alternative, index) => {
         alternativesHtml += `
             <label>
-                <input type="radio" name="alternative" value="${index}">
+                <input type="radio" name="alternative" id="activateScriptButton" value="${index}">
                 <span>${String.fromCharCode(65 + index)} - ${alternative}</span>
             </label><br>
         `;        
